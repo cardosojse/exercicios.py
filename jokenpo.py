@@ -55,4 +55,3 @@ elif pc == 2:
         print('PLAYER WINS')
     elif player == 2:
         print('DRAW')
-
