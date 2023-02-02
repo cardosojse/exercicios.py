@@ -1,6 +1,6 @@
 from random import randint
 pc = randint(0, 10)
-sP = 0  # sP é a soma dos palpites.
+sP = 1  # sP é a soma dos palpites.
 
 print("""
 Olá! Acabei de pensar em um número entre 0 e 10.
