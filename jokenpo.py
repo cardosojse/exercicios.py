@@ -1,57 +1,57 @@
 from random import randint
 from time import sleep
 
-print('     ROCK PAPER SCISSORS!')
+print('     JO-KEN-PÔ!')
 
-itens = ('ROCK', 'PAPER', 'SCISSORS')
+itens = ('PEDRA', 'PAPEL', 'TESOURA')
 pc = randint(0, 2)
 
 print("""
-CHOOSE YOUR OPTION:
+ESCOLHA SUA OPÇÃO
 
-[0] ROCK
-[1] PAPER
-[2] SCISSORS
+[0] PEDRA
+[1] PAPEL
+[2] TESOURA
 """)
 
-player = int(input('YOUR OPTION: '))
+player = int(input('SUA OPÇÃO: '))
 
 print(' ')
 
-print('ROCK...')
+print('JO...')
 sleep(1)
-print('PAPER...')
+print('KEN...')
 sleep(1)
-print('SCISSORS...')
+print('PÔ!')
 sleep(1)
 
 print(' ')
 
 print('=-' * 11)
-print(f'PLAYER CHOSE {itens[player]}')
-print(f'PC CHOSE {itens[pc]}')
+print(f'JOGADOR ESCOLHEU {itens[player]}')
+print(f'COMPUTADOR ESCOLHEU {itens[pc]}')
 print('=-' * 11)
 
 print(' ')
 
 if pc == 0:
     if player == 0:
-        print('DRAW')
+        print('EMPATE.')
     elif player == 1:
-        print('PLAYER WINS')
+        print('O JOGADOR VENCEU!')
     elif player == 2:
-        print('PC WINS')
+        print('O COMPUTADOR VENCEU!')
 elif pc == 1:
     if player == 0:
-        print('PC WINS')
+        print('O COMPUTADOR VENCEU!')
     elif player == 1:
-        print('DRAW')
+        print('EMPATE.')
     elif player == 2:
-        print('PLAYER WINS')
+        print('O JOGADOR VENCEU!')
 elif pc == 2:
     if player == 0:
-        print('PC WINS')
+        print('O COMPUTADOR VENCEU')
     elif player == 1:
-        print('PLAYER WINS')
+        print('O JOGADOR VENCEU!')
     elif player == 2:
-        print('DRAW')
+        print('EMPATE')
