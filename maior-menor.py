@@ -1,5 +1,5 @@
 total = count = average = more = less = 0
-awnser = 'Yes'
+awnser = 'YES'
 while awnser in 'YESyes':
     number = int(input('Type a number: '))
     total += number
