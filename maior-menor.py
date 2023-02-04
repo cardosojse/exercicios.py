@@ -13,7 +13,7 @@ while awnser in 'YESyes':
         if number < less:
             less = number
 average = total / count
-print('It´s over')
+print('It´s over :(')
 print(f'''Total sum = {total}
 Average = {average:.1f}
 Biggest = {more} 
