@@ -54,9 +54,5 @@ elif pc == 2:
     elif player == 1:
         print('O JOGADOR VENCEU!')
     elif player == 2:
-<<<<<<< HEAD
         print('EMPATE')
-=======
-        print('DRAW')
 
->>>>>>> parent of ee0a346 (Análise de grupo)
