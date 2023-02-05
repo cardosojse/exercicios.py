@@ -11,7 +11,7 @@ for c in range(1, n+1):
     idade = int(input('Idade: '))
     sexo = str(input('SEXO [M/F]: ')).upper()
     sI = sI + idade
-    media = sI / 4
+    media = sI / n
     if sexo == 'M':
         if c == 1:
             mI = idade
