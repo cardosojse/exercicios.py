@@ -16,4 +16,7 @@ while palpite != pc:
         print('Mais... Tente mais uma vez.')
         palpite = int(input('Qual o seu palpite? '))
         sP += 1
-print(f'Parabéns! Você precisou de {sP} palpites para acertar.')
+if sP <= 4:
+    print(f'Parabéns! Você só precisou de {sP} palpites para acertar.')
+else:
+    print(f'Nossa, que mancada! Você precisou de {sP} palpites para acertar.')
