@@ -1,9 +1,19 @@
+from time import sleep
+
 print('CAIXA ELETRÔNICO')
+print(' ')
 
 valor = int(input('Saque: R$'))
 total = valor
 ced = 100
 tCed = 0
+
+print(' ')
+print('Por favor, aguarde...')
+sleep(2)
+print(' ')
+print('Total sacado:')
+
 while True:
     if total >= ced:
         total -= ced
@@ -22,4 +32,5 @@ while True:
         tCed = 0
         if total == 0:
             break
+print(' ')
 print('Agradecemos a sua preferência. Volte sempre!')
