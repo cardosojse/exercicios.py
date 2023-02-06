@@ -10,4 +10,16 @@ while True:
         tCed += 1
     else:
         if tCed > 0:
-            print('')
+            print(f'{tCed} cédulas de R${ced}')
+        if ced == 100:
+            ced = 50
+        elif ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 5
+        tCed = 0
+        if total == 0:
+            break
+print('Agradecemos a sua preferência. Volte sempre!')
