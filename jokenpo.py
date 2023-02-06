@@ -35,12 +35,14 @@ print('=-' * 11)
 print(' ')
 
 if pc == 0:
+
     if player == 0:
         print('EMPATE.')
     elif player == 1:
         print('O JOGADOR VENCEU!')
     elif player == 2:
         print('O COMPUTADOR VENCEU!')
+
 elif pc == 1:
     if player == 0:
         print('O COMPUTADOR VENCEU!')
@@ -48,6 +50,7 @@ elif pc == 1:
         print('EMPATE.')
     elif player == 2:
         print('O JOGADOR VENCEU!')
+
 elif pc == 2:
     if player == 0:
         print('O COMPUTADOR VENCEU')
@@ -55,4 +58,3 @@ elif pc == 2:
         print('O JOGADOR VENCEU!')
     elif player == 2:
         print('EMPATE')
-
