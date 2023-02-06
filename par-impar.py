@@ -10,9 +10,9 @@ while True:
     escolha = ' '
     while escolha not in 'PI':
         escolha = str(input('Par ou impar?: ')).upper().strip()[0]
-    if total % 2 == 0:
+    if escolha == 'P':
         print(f'Você escolheu {valor} e o computador escolheu {pc}. {total} é PAR.')
-        if escolha == 'P':
+        if total % 2 == 0:
             print('VOCÊ VENCEU! Vamos novamente?')
         else:
             break
