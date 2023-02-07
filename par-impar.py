@@ -1,4 +1,4 @@
-from random import
+from random import randint
 
 total = 0
 print(' ')
@@ -21,7 +21,6 @@ while True:
             print('VOCÊ VENCEU! Vamos novamente?')
         else:
             break
-
     else:
         print(f'Você escolheu {valor} e o computador escolheu {pc}. {total} é IMPAR.')
         if escolha == 'I':
