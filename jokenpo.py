@@ -35,7 +35,6 @@ print('=-' * 11)
 print(' ')
 
 if pc == 0:
-
     if player == 0:
         print('EMPATE.')
     elif player == 1:
