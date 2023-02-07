@@ -5,13 +5,12 @@ print(' ')
 print('     VAMOS JOGAR PAR OU IMPAR?')
 
 while True:
-
     print(' ')
     pc = randint(1, 10)
     valor = int(input('Digite um valor: '))
     total = valor + pc
-    escolha = ' '
 
+    escolha = ' '
     while escolha not in 'PI':
         escolha = str(input('Par ou impar?: ')).upper().strip()[0]
 
@@ -27,5 +26,4 @@ while True:
             print('VOCÊ VENCEU! Vamos novamente?')
         else:
             break
-
 print('VOCÊ PERDEU!')
