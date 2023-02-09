@@ -1,5 +1,4 @@
-num = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze',
-       'catorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
+num = list(range(0, 20))
 
 while True:
     n = int(input('Digite um número entre 0 e 20: '))
@@ -15,6 +14,9 @@ while True:
 print('Obrigado')
 
 # O código escrito abaixo foi o meu "rascunho" do código atual:
+# num = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito',
+#           'nove', 'dez', 'onze', 'doze', 'treze','catorze', 'quinze', 'dezesseis',
+#           'dezessete', 'dezoito', 'dezenove', 'vinte')
 # n = ' '
 # while n not in range(0, 21):
 #     n = int(input('Digite um número entre 0 e 20: '))
