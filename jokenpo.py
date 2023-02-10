@@ -2,7 +2,6 @@ from random import randint
 from time import sleep
 
 print('     JO-KEN-PÔ!')
-
 itens = ('PEDRA', 'PAPEL', 'TESOURA')
 pc = randint(0, 2)
 
@@ -15,24 +14,20 @@ ESCOLHA SUA OPÇÃO
 """)
 
 player = int(input('SUA OPÇÃO: '))
-
-print(' ')
-
+print()
 print('JO...')
 sleep(1)
 print('KEN...')
 sleep(1)
 print('PÔ!')
 sleep(1)
-
-print(' ')
+print()
 
 print('=-' * 11)
 print(f'JOGADOR ESCOLHEU {itens[player]}')
 print(f'COMPUTADOR ESCOLHEU {itens[pc]}')
 print('=-' * 11)
-
-print(' ')
+print()
 
 if pc == 0:
     if player == 0:
@@ -41,7 +36,6 @@ if pc == 0:
         print('O JOGADOR VENCEU!')
     elif player == 2:
         print('O COMPUTADOR VENCEU!')
-
 elif pc == 1:
     if player == 0:
         print('O COMPUTADOR VENCEU!')
@@ -49,7 +43,6 @@ elif pc == 1:
         print('EMPATE.')
     elif player == 2:
         print('O JOGADOR VENCEU!')
-
 elif pc == 2:
     if player == 0:
         print('O COMPUTADOR VENCEU')
