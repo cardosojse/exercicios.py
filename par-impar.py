@@ -1,9 +1,7 @@
 from random import randint
-
 total = 0
 print(' ')
 print('     VAMOS JOGAR PAR OU IMPAR?')
-
 while True:
     print(' ')
     pc = randint(1, 10)
