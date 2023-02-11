@@ -18,4 +18,3 @@ print(f'''Total sum = {total}
 Average = {average:.1f}
 Biggest = {more} 
 Smaller = {less}''')
-
