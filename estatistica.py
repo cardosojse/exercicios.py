@@ -1,6 +1,6 @@
 from time import sleep
 jogador = {'Nome': str(input('Nome do jogador: '))}
-total = int(input('Quantas partidas ele jogou? '))
+total = int(input(f'Quantas partidas {jogador["Nome"]} jogou? '))
 print('Quantos gols ele marcou? ')
 sleep(1)
 partidas = []
