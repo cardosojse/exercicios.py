@@ -12,6 +12,7 @@ print(' ')
 print('Por favor, aguarde...')
 sleep(2)
 print(' ')
+
 print('Total sacado:')
 
 while True:
