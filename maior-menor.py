@@ -1,10 +1,8 @@
 total = count = average = more = less = 0
-awnser = 'YES'
-while awnser in 'YESyes':
-    number = int(input('Type a number: '))
+while True:
+    number = int(input('Digite um número: '))
     total += number
     count += 1
-    awnser = str(input('Wanna keep going? [YES or NO]: ')).upper().strip()[0]
     if count == 1:
         more = less = number
     else:
@@ -12,9 +10,14 @@ while awnser in 'YESyes':
             more = number
         if number < less:
             less = number
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar?[S/N]: ')).upper().strip()
+    if resp == 'N':
+        break
 average = total / count
-print('It´s over :(')
-print(f'''Total sum = {total}
-Average = {average:.1f}
-Biggest = {more} 
-Smaller = {less}''')
+print('ACABOU :(')
+print(f'''Soma total dos números digitados = {total}
+Media dos números digitados = {average:.1f}
+Maior número digitado = {more} 
+Menor número digitado = {less}''')
